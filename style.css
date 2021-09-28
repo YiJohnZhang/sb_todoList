@@ -1,0 +1,18 @@
+.inline{
+    display:inline;
+}
+.removeItem{
+    color:rgb(0,0,0);
+    transition:all 441ms ease-in-out;
+    -webkit-transition:all 441ms ease-in-out;
+    -moz-transition:all 441ms ease-in-out;
+    -o-transition:all 441ms ease-in-out;
+}
+    .removeItem:hover{
+        color:rgb(255,0,0);
+    }
+.completedToDo{
+    color:rgb(196,196,196);
+    font-style:italic;
+    text-decoration-line:line-through;
+}
